@@ -10,9 +10,6 @@ This repository contains implementations of reinforcement learning algorithms fo
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -80,23 +77,5 @@ pip install -r requirements.txt
 ## Usage
 1. Run the **Taxi Simulation** or **1D GridExplorer** scripts to see reinforcement learning in action.
 2. Customize parameters such as `num_episodes`, `learning_rate`, `discount_factor`, and `exploration_rate` to experiment with different learning settings.
-
----
-
-## Results
-The Q-values for each state-action pair are printed at the end of each simulation. These values indicate the expected cumulative reward for each action at each state, helping to illustrate how the agent learns optimal behavior over time.
-
-### Sample Output for 1D GridExplorer:
-```
-Episode 1: Goal reached in 15 steps.
-Episode 2: Goal reached in 11 steps.
-...
-Q-table:
-Position 0: Left = -0.90, Right = 1.35
-Position 1: Left = 0.00, Right = 2.10
-...
-```
-
-In the output, each "Episode" line shows the number of steps taken to reach the target position in each episode, while the Q-table displays the learned Q-values for each action (left or right) at each position.
 
 ---

@@ -69,7 +69,8 @@ cd Reinforcement-Learning
 Install the required packages:
 
 ```bash
-pip install -r requirements.txt
+pip install gym
+pip install numpy
 ```
 
 ---

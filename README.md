@@ -1,4 +1,4 @@
-# Reinforcement Learning Project
+# Reinforcement Learning Assignment
 This repository contains implementations of reinforcement learning algorithms for solving classic problems, such as **Taxi Simulation** using Q-Learning and **1D GridExplorer** using the SARSA (State-Action-Reward-State-Action) algorithm. These projects serve as an introduction to reinforcement learning, allowing agents to learn optimal strategies through interaction with the environment.
 
 ---

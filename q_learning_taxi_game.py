@@ -4,7 +4,7 @@ import gym
 import random as rand
 
 #initialize environment and render initial state
-env=gym.make('Taxi-v3',render_mode='human')
+env=gym.make('Taxi-v3',render_mode='ansi')
 env.reset()
 env.render()
 
@@ -49,7 +49,8 @@ for episode in range(total_episode):
             break
     #decay epsilon after each episode
     epsilon=min_epsilon+(max_epsilon-min_epsilon)*np.exp(-decay_rate*episode)
-
+print("Final Q-Table:")
+print(q_table)
 #testing phase
 rewards=[]
 for episode in range(total_test_episode):
